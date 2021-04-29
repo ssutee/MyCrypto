@@ -19,6 +19,7 @@ import { promoPoapsSaga } from './promoPoaps.slice';
 import { ratesSaga } from './rates.slice';
 import { importSaga } from './root.reducer';
 import { settingsSaga } from './settings.slice';
+import { signerSaga } from './signer.slice';
 import { scanTokensSaga } from './tokenScanning.sagas';
 import { txHistorySaga } from './txHistory.slice';
 
@@ -43,6 +44,7 @@ export default function* rootSaga() {
     accountUndoSaga(),
     nftSaga(),
     gasSaga(),
-    promoPoapsSaga()
+    promoPoapsSaga(),
+    signerSaga()
   ]);
 }
