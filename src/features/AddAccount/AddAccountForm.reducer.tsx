@@ -65,7 +65,7 @@ const handleUnlock = (walletType: WalletId | undefined, payload: any) => {
 
       case WalletId.TREZOR_NEW:
         return payload;
-      case WalletId.DESKTOP_SIGNER:
+      case WalletId.QUILL:
         return payload.map((address: any) => ({
           address,
           derivationPath: ''

@@ -97,5 +97,7 @@ export const configs: Record<
     },
     SUPPORT_LINK
   ],
-  SUPPORT: [SUPPORT_LINK]
+  SUPPORT: [SUPPORT_LINK],
+  // @todo
+  QUILL: []
 };

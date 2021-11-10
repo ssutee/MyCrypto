@@ -6,5 +6,6 @@ export enum BusyBottomConfig {
   LEDGER = 'LEDGER',
   TREZOR = 'TREZOR',
   WALLETCONNECT = 'WALLETCONNECT',
-  SUPPORT = 'SUPPORT'
+  SUPPORT = 'SUPPORT',
+  QUILL = 'QUILL'
 }

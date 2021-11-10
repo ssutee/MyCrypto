@@ -61,7 +61,7 @@ export const WalletFactory = {
       new WalletConnectWallet(address, signMessageHandler, killHandler)
   },
   // Not implemented
-  [WalletId.DESKTOP_SIGNER]: {} as WalletService
+  [WalletId.QUILL]: {} as WalletService
 };
 
 export const getWallet = (wallet: WalletId) => {
